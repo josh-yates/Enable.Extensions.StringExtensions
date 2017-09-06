@@ -69,6 +69,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecureStringExtensionsToInsecureStringTests.cs" />
     <Compile Include="SecureStringExtensionsToSecureStringTests.cs" />
+    <Compile Include="StringExtensionsSplitOnWhiteSpaceTests.cs" />
+    <Compile Include="StringExtensionsIsEqualTests.cs" />
     <Compile Include="StringExtensionsTrimFirstLineTests.cs" />
     <Compile Include="StringExtensionsTrimTests.cs" />
     <Compile Include="StringExtensionsPadWithZerosTests.cs" />

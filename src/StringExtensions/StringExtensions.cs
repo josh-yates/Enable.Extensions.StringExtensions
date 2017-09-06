@@ -1,4 +1,6 @@
-﻿namespace Enable.Extensions
+﻿using System;
+
+namespace Enable.Extensions
 {
     public static class StringExtensions
     {
@@ -81,6 +83,29 @@
             }
 
             return s;
+        }
+
+        /// <summary>
+        /// Determines whether two specified strings have the same value.
+        /// </summary>
+        public static bool IsEqual(this string a, string b, StringComparison stringComparison = StringComparison.InvariantCultureIgnoreCase)
+        {
+            if (string.IsNullOrEmpty(a))
+            {
+                return string.IsNullOrEmpty(b);
+            }
+            else
+            {
+                return string.Equals(a, b, stringComparison);
+            }
+        }
+
+        /// <summary>
+        /// Splits the specified string on whitespace character
+        /// </summary>
+        public static string[] SplitOnWhiteSpace(this string s)
+        {
+            return s.Split((char[])null, StringSplitOptions.RemoveEmptyEntries);
         }
     }
 }
