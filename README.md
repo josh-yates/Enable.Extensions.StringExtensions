@@ -6,6 +6,4 @@ Useful utility methods for .NET strings.
 
 ## Usage
 
-Please [refer to the tests](https://github.com/EnableSoftware/Enable.Extensions.StringExtensions/tree/master/test/StringExtensions.Test) in this repository for sample usage.# Usage
-
 Please [refer to the tests](https://github.com/EnableSoftware/Enable.Extensions.StringExtensions/tree/master/test/StringExtensions.Test) in this repository for sample usage.
