@@ -1,5 +1,5 @@
 ﻿using System.Security;
-using Ploeh.AutoFixture;
+using AutoFixture;
 using Xunit;
 
 namespace Enable.Extensions

@@ -40,16 +40,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="StringExtensions.nuspec" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="..\..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Enable.Common.Argument, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Enable.Common.Argument.1.0.0\lib\net40\Enable.Common.Argument.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Enable.Common.Argument, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Enable.Common.Argument.2.0.0\lib\net40\Enable.Common.Argument.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

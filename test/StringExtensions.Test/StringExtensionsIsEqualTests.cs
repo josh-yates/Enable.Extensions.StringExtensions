@@ -11,7 +11,7 @@ namespace Enable.Extensions
         [InlineData("", "")]
         public void IsEqual_ReturnsTrue(string input, string output)
         {
-            Assert.True(input.Equals(output));
+            Assert.Equal(input, output);
         }
 
         [Theory]
@@ -22,7 +22,7 @@ namespace Enable.Extensions
         [InlineData(" foo ", null)]
         public void IsEqual_ReturnsFalse(string input, string output)
         {
-            Assert.False(input.Equals(output));
+            Assert.NotEqual(input, output);
         }
     }
 }
