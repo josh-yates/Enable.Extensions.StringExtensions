@@ -21,6 +21,6 @@ build:
   verbosity: minimal
   
 test:
-  assembilies: '**\*.Tests.dll'
+  assemblies: '**\*.Tests.dll'
 
 deploy: off
